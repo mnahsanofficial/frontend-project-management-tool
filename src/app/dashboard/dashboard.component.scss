@@ -1,0 +1,62 @@
+.dashboard-container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .welcome-card {
+    margin-bottom: 24px;
+  }
+  
+  .projects-section {
+    margin-top: 32px;
+  
+    h2 {
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+  }
+  
+  .loading-spinner, .no-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+  
+  .no-projects {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    .project-description {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    .project-dates {
+      display: flex;
+      flex-direction: column;
+      margin-top: 16px;
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  
+    mat-card-actions {
+      margin-top: auto;
+    }
+  }

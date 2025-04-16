@@ -1,0 +1,22 @@
+.full-width {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .date-fields {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  
+    mat-form-field {
+      flex: 1;
+    }
+  }
+  
+  quill-editor {
+    margin-bottom: 16px;
+  }
+  
+  .ql-editor {
+    min-height: 150px;
+  }

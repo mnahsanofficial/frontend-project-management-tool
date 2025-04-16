@@ -1,0 +1,33 @@
+.container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .mat-column-actions {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .mat-chip {
+    font-size: 12px;
+    font-weight: 500;
+  }
