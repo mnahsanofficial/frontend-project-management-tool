@@ -27,6 +27,7 @@
     "jwt-decode": "^4.0.0",
     "moment": "^2.30.1",
     "ngx-quill": "^27.0.2",
+    "parchment": "^2.0.1",
     "quill": "^2.0.3",
     "quill-delta": "^5.1.0",
     "rxjs": "~7.8.0",
